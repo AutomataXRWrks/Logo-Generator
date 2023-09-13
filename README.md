@@ -3,7 +3,7 @@
 ### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Challenge-10 Node.js Challenge: Object-oriented Programming Challenge: SVG Logo Maker
 
-![image](circle.svg), ![image](triangle.svg)
+![image](circle.svg) ![image](triangle.svg)
 
 ## Table of Contents
 1. [Description](#description)

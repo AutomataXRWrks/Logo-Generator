@@ -2,6 +2,9 @@
 # Logo Generator
 ### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Challenge-10 Node.js Challenge: Object-oriented Programming Challenge: SVG Logo Maker
+
+![image](circle.svg), ![image](triangle.svg)
+
 ## Table of Contents
 1. [Description](#description)
 2. [Installation-Instructions](#installation-instructions)
@@ -11,16 +14,15 @@
 6. [License: MIT](https://opensource.org/licenses/MIT)
 
 ## Description
-#### a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package
+#### a command-line application that dynamically generates a svg logo file from a user's input using the Inquirer package
 ## Installation-Instructions
-#### install node.js, run npm i for install node dependencies (inquirer)
+#### install node.js, run npm i for install node dependencies (inquirer, jest)
 ## Usage-Information
 #### run node index. js for accessing the command line aplication, answer the questions accordding the file structure
 
 ## Contribution-Guidelines
 #### n/a
-## Tests
-#### the readme structure shown here is a tool for programatically create readme files, each time you use the application you should initialize node.js on a terminal, go to the folder of the applications downloaded and run the test commands on the command terminal , this would start de applications 
+
 
 ## Questions
 #### Github Profile https://github.com/AutomataXRWrksAutomataXRWrks

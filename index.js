@@ -43,7 +43,7 @@ function createPrompts(){
 
 function writeToFile(fileName, data) {
 fs.writeFile(fileName, data, (err) =>
-err ? console.error(err) : console.log('Success!')
+err ? console.error(err) : console.log('Generated logo.svg')
 );
 }
 
@@ -51,10 +51,11 @@ function saveSVG(data){
   shapeData.text = data.text;
   shapeData.textColor = data.textColor;  
   shapeData.shape = data.shape;
-  shapeData.shapeColor = data.shapeColor;   
+  shapeData.colorShape = data.colorShape;
+  //console.log(shapeData);   
         
 
-  writeToFile("logo.svg", shapeGenerator.shapeGenerator(shapeData));
+  writeToFile("logo.svg", shapeGenerator.shapeGenerator(data));
 }
 
 function init() {
